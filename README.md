@@ -1,6 +1,6 @@
 # simple-website
 
-# Web Development Practice Projects 🚀
+# Web Development Projects 🚀
 
 This repository contains beginner to intermediate level **HTML, CSS, and JavaScript projects** including landing pages, quiz apps, and basic websites. It’s created to improve frontend development skills.
 
