@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App Quiz</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Life Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="main">
-        <div class="box"><div>
-          <h2 id="quesbox">1)This is the new question</h2>
-          <div class="row">
-            <input class="option" id"option" type ="radio" value"a" name="option"/>
-            <lavel for="option1"> option 1</label>
-             
+    <div class="background">
+        <div id="intialtext" class="container">
+            <h1>Kindly Enter Your Date Of Birth</h1>
         </div>
-
-        <div class="row">
-          <input class="option" id"option" type ="radio" value"b" name="option"/>
-          <lavel for="option1">option 2</label>
+        <div id="afterDOBBtnTxt" class="container">
+          <div class="center">
+            <h1>How Much Life Journey Covered,Till Now</h1>
+            <div class="time-container">
+              <h2>
+                <div id="year">0</div>
+                Years
+              </h2>
+              <h2>
+                <div id="month">0</div>
+                Months
+              </h2>
             
-      </div>
-
-      <div class="row">
-        <input class="option" id"option" type ="radio" value"c" name="option"/>
-        <lavel for="option3"> option 3</label>
-          
+                <h2>
+                    <div id="day">0</div>
+                    Days
+                </h2>
+                <h2>
+                    <div id="hour">0</div>
+                    Hours
+                </h2>
+                <h2>
+                    <div id="minut">0</div>
+                    minutes
+                </h2>
+                <h2>
+                    <div id="Second">0</div>
+                    Second
+                </h2>
+            </div>
+        </div>
     </div>
 
-    <div class="row">
-      <input class="option" id"option" type ="radio" value"d" name="option"/>
-      <lavel for="option4"> option 4</label>
-       
-  </div>
+    <div class="settings">
+        <i id="settingIcon" class="fa fa-cog"></i>
+        <div id="settingContent" class="settings-content hide">
+            <input type="date" id="dobinput"/>
+            <button id ="dobbutton">Add DOB</button>
+        </div>
+    </div>
+</div>
 
-
-  <button class="btn">  
-         Submit
-  </button>
-      
-    
-
-
-        <script src="js/app.js"></script>
-
-  </body>
+<script src="./index.js"></script>
+ </body>
   </html>
+
